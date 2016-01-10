@@ -1,0 +1,176 @@
+/* Colors */
+body {
+	background: {BackgroundColor};
+}
+
+.blog-title {
+	font-family: {TitleFont}, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+	font-weight: {TitleFontWeight};
+}
+
+@font-face {
+	font-family: NanumGothic; 
+	src: url("YOUR_LINK"); 
+}
+
+.blog-title-wrapper {
+	text-align: left;
+	border-radius: 15px;
+	background-color: rgba(114, 114, 114, 0.2);
+}
+
+.nav-wrapper.content {
+	text-align: left;
+	padding-left: 0px;
+}
+
+.inline-nav {
+	position: absolute;
+	left: -10px;
+	border-top: 1px solid #A3A3A3;
+}
+
+.nav-wrapper .nav-item {
+	display: inline-block;
+	margin: 0px 10px 0;
+}
+
+.blog-title a,
+.description,
+.search-no-results {
+	color: {TitleColor};
+}
+
+a {
+	color: {AccentColor};
+}
+
+.container {
+  display: table;
+}
+.row {
+  display: table-row;
+}
+.column {
+  display: table-cell;
+}
+
+a.meta-item {
+	font-family: NanumGothic;
+}
+
+#pagination a,
+.nav-wrapper .nav-item .label {
+	color: {AccentColor};
+}
+
+#TransparentHeader {
+	background-image: url('YOUR_LINK');
+	background-size: cover;
+	width:100%;
+	height:1010px;
+}
+
+#pagination a.next:after {
+	border-left-color: {AccentColor};
+}
+
+#pagination a.previous:after {
+	border-right-color: {AccentColor};
+}
+
+.loader .loader-bar {
+	background-color: {TitleColor};
+}
+
+.header-image.cover {
+	background-image: url({HeaderImage});
+}
+
+.user-avatar {
+	background-color: {BackgroundColor};
+	border-color: {BackgroundColor};
+}
+
+.avatar-style-square .user-avatar {
+	-webkit-box-shadow: 0 0 0 4px {BackgroundColor};
+	box-shadow: 0 0 0 4px {BackgroundColor};
+}
+
+.quote .post-content blockquote {
+	font-family: NanumGothic;
+}
+
+/* Location of the Tumblr Logo + Search Bar */
+div.logo-wrapper {
+	left: 360px; 
+}
+
+.logo-wrapper {
+	width: 70%;
+}
+
+.nav-wrapper .inline-nav {
+	margin: 7px 0 0;
+	padding: 0;
+	text-align: left;
+}
+
+.avatar-wrapper {
+	left: 80px;
+	margin-left: 0px;
+	position: absolute;
+	top: -70px;
+}
+
+.no-header-image .logo-wrapper,
+.contain-header-image .logo-wrapper {
+	color: {AccentColor};
+}
+
+/* Adjust logo for light accents on light backgrounds */
+.light-on-light.no-header-image .logo-wrapper,
+.light-on-light.contain-header-image .logo-wrapper {
+	color: #444;
+}
+
+/* Adjust logo for dark accents on dark backgrounds */
+.dark-on-dark.no-header-image .logo-wrapper,
+.dark-on-dark.contain-header-image .logo-wrapper {
+	color: #fff;
+}
+
+/* For MP3 Player Marquee*/
+@keyframes marquee {
+	0%   { text-indent: 200px }
+	100% { text-indent: -255px }
+}
+
+@-webkit-keyframes marquee {
+	0%   { text-indent: 200px }
+	100% { text-indent: -255px }
+}
+
+.marquee {
+	overflow: hidden;
+	white-space: nowrap;
+	animation: marquee 10s linear infinite;
+	-webkit-animation: marquee 10s linear infinite;
+}
+/* End */
+
+@media screen and (max-device-width: 568px) {
+	.header-image.cover {
+		/*background-image: url({HeaderImage-640});*/
+		background-image: url('YOUR_LINK');
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+
+	.avatar-style-square .user-avatar {
+		-webkit-box-shadow: 0 0 0 3px {BackgroundColor};
+		-moz-box-shadow: 0 0 0 3px {BackgroundColor};
+		box-shadow: 0 0 0 3px {BackgroundColor};
+	}
+
+}
