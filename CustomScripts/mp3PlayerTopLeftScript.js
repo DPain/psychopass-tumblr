@@ -1,9 +1,9 @@
 // Created by D_Pain
 // Ver: 1.2
 
-// Instantiates required arrays EGOIST - Relaoded link: 'http://goo.gl/D8c4mf'
-var trackNameList = new Array('EGOIST - Reloaded','EGOIST - Ghost of a smile','EGOIST - Door','Kyouran Hey Kids!! - THE ORAL CIGARETTES','Nirvana - Tia');
-var trackUrlList = new Array('http://picosong.com/cdn/89f3887a6d61b37bbdc26f281bc05d70.mp3','http://picosong.com/cdn/066c8632d48ccb37e59e3189646d1b88.mp3','http://picosong.com/cdn/99f49f383c1aa13c639e638cbf8fbadc.mp3','http://goo.gl/FGlc4A','http://goo.gl/uZ7Kqd');
+// Instantiates required arrays
+var trackNameList = new Array('SONG_NAME','SONG_NAME','SONG_NAME','SONG_NAME','SONG_NAME');
+var trackUrlList = new Array('YOUR_LINK','YOUR_LINK','YOUR_LINK','YOUR_LINK','YOUR_LINK');
 
 // Used to keep track what song is currently loaded
 var currentSongId = 0;
@@ -65,7 +65,7 @@ e1.id = 'buttonPlay';
 e1.style.display = 'inline-block';
 e1.style.position = 'relative';
 e1.style.zIndex = '1';
-e1.style.backgroundImage = 'url(http://static.tumblr.com/cnaahls/LLAnszq1r/playshape.png)';
+e1.style.backgroundImage = 'url(//playshape.png)';
 e1.style.height = '25px';
 e1.style.width = '25px';
 e1.style.top = '0px';
@@ -78,7 +78,7 @@ e2.id = 'buttonStop';
 e2.style.display = 'inline-block';
 e2.style.position = 'relative';
 e2.style.zIndex = '1';
-e2.style.backgroundImage = 'url(http://static.tumblr.com/cnaahls/QpTnszq1u/stopshape.png)';
+e2.style.backgroundImage = 'url(//stopshape.png)';
 e2.style.height = '25px';
 e2.style.width = '25px';
 e2.style.top = '0px';
@@ -91,7 +91,7 @@ e3.id = 'buttonVolUp';
 e3.style.display = 'inline-block';
 e3.style.position = 'relative';
 e3.style.zIndex = '1';
-e3.style.backgroundImage = 'url(http://static.tumblr.com/cnaahls/WeCnsbd0l/vol_.png)';
+e3.style.backgroundImage = 'url(//vol_.png)';
 e3.style.height = '25px';
 e3.style.width = '25px';
 e3.style.top = '0px';
@@ -104,7 +104,7 @@ e4.id = 'buttonVolDown';
 e4.style.display = 'inline-block';
 e4.style.position = 'relative';
 e4.style.zIndex = '1';
-e4.style.backgroundImage = 'url(http://static.tumblr.com/cnaahls/RHlnsbd06/vol-.png)';
+e4.style.backgroundImage = 'url(//vol-.png)';
 e4.style.height = '25px';
 e4.style.width = '25px';
 e4.style.top = '0px';
@@ -117,7 +117,7 @@ e5.id = 'buttonList';
 e5.style.display = 'inline-block';
 e5.style.position = 'relative';
 e5.style.zIndex = '1';
-e5.style.backgroundImage = 'url(http://static.tumblr.com/cnaahls/ixWnszq1o/listshape.png)';
+e5.style.backgroundImage = 'url(//listshape.png)';
 e5.style.height = '25px';
 e5.style.width = '25px';
 e5.style.top = '0px';
